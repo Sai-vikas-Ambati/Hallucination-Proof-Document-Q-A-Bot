@@ -6,6 +6,13 @@ A deterministic, retrieval-augmented generation (RAG) assistant for complex fina
 
 ---
 
+## Dataset
+
+- **Benchmark Dataset:** [PatronusAI/financebench](https://huggingface.co/datasets/PatronusAI/financebench)
+- Target corpora consist of SEC 10-K filings, earnings releases, and annual reports.
+
+---
+
 ## Key Features
 
 - **Page-Bounded Chunking:** Chunks strictly never cross page boundaries, eliminating ambiguous multi-page citations.
