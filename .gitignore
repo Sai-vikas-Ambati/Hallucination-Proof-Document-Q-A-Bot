@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+chroma_db/
+.venv/
+venv/
+env/
+data/pdfs/*
+!data/pdfs/.gitkeep
