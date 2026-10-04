@@ -26,6 +26,18 @@ A deterministic, retrieval-augmented generation (RAG) assistant for complex fina
 
 ---
 
+## Proof of Precision
+
+To demonstrate the exact page-level citations and complex tabular extraction, here is an example pulling a specific executive's age directly from a 3M 10-K document (Page 8):
+
+**Original PDF Document:**
+![PDF Document Proof](assets/pdf_proof.png)
+
+**Bot Extraction & Exact Citation:**
+![App Extraction Proof](assets/ui_proof.png)
+
+---
+
 ## Tech Stack
 
 - **Frontend:** Streamlit
